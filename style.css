@@ -1,0 +1,104 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #142d4e;
+    color: white;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    font-size: 26px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* Button color change */
+.nav-links a:hover,
+.nav-links a:focus,
+.nav-links a.active {
+    background-color: #00a8a8;
+    color: white;
+}
+
+/* Landing page */
+.hero {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(135deg, #dceeff, #ffffff);
+}
+
+.content {
+    max-width: 700px;
+    padding: 30px;
+}
+
+.content h1 {
+    font-size: 45px;
+    color: #142d4e;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    background-color: #00a8a8;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    border-radius: 7px;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #142d4e;
+    transform: scale(1.05);
+}
+
+.secondary {
+    background-color: #142d4e;
+}
+
+.secondary:hover,
+.secondary:focus {
+    background-color: #00a8a8;
+}
+
+/* Footer */
+footer {
+    background-color: #142d4e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
